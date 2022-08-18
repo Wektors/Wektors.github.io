@@ -1,1 +1,1 @@
-# JS-algorithm-data-structures-projects for FreeCodeCamp
+projects for FreeCodeCamp - Javascript algorithms and data structures course

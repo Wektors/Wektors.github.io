@@ -1,1 +1,1 @@
-# JS-algorithm-data-structures-projects
+# JS-algorithm-data-structures-projects for FreeCodeCamp

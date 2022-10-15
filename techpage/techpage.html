@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>Ruby Documentation</title>
+    </head>
+
+<body>
+
+<nav id="navbar">
+
+    <header>
+        <h2>Ruby Documentation</h2>    
+     </header> 
+    
+    <a href=#About class="nav-link">About</a>
+    <a href=#Semantics_and_philosophy class="nav-link">Semantics and philosophy</a>
+    <a href=#Features class="nav-link">Features</a>
+    <a href=#Syntax class="nav-link">Syntax</a>
+    <a href=#Repositories_and_libraries class="nav-link">Repositories and Libraries</a>
+    
+</nav>
+
+
+<main id="main-doc">
+
+    <section id="About" class="main-section">
+        <header id="About">
+        <h1>About</h1>
+        </header>
+        <p>
+        Ruby is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms. It was designed with an emphasis on programming productivity and simplicity. In Ruby, everything is an object, including primitive data types. It was developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
+        </p>
+        <p>
+        Ruby is dynamically typed and uses garbage collection and just-in-time compilation. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, BASIC, and Lisp.
+        </p>
+        <p>
+            Simplest program:<br>
+            <code>puts "Hello world"</code>
+        </p>
+    </section>
+
+    <section id="Semantics_and_philosophy" class="main-section">
+        <header id="PC">
+        <h1>Semantics and philosophy</h1>
+        </header>
+        <p>
+        Matsumoto has said that Ruby is designed for programmer productivity and fun, following the principles of good user interface design. At a Google Tech Talk in 2008 Matsumoto further stated, "I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming, and to be happy. That is the primary purpose of Ruby language." He stresses that systems design needs to emphasize human, rather than computer, needs:
+        </p>
+        <p>
+        Often people, especially computer engineers, focus on the machines. They think, "By doing this, the machine will run fast. By doing this, the machine will run more effectively. By doing this, the machine will something something something." They are focusing on machines. But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines. We are the masters. They are the slaves.
+        </p>
+    </section>
+
+    <section id="Features" class="main-section">
+        <header id="Features">
+        <h1>Features</h1>
+        </header>
+        <p>
+        <li>Thoroughly object-oriented with inheritance, mixins and metaclasses</li>
+        <li>Dynamic typing and duck typing</li>
+        <li>Everything is an expression (even statements) and everything is executed imperatively (even declarations)</li>
+        <li>Succinct and flexible syntax that minimizes syntactic noise and serves as a foundation for domain-specific languages</li>
+        <li>Dynamic reflection and alteration of objects to facilitate metaprogramming</li>
+        <li>Lexical closures, iterators and generators, with a block syntax</li>
+        <li>Literal notation for arrays, hashes, regular expressions and symbols</li>
+        <li>Embedding code in strings (interpolation)</li>
+        <li>Default arguments</li>
+        <li>Four levels of variable scope (global, class, instance, and local) denoted by sigils or the lack thereof</li>
+        <li>Garbage collection</li>
+        <li>First-class continuations</li>
+        <li>Strict boolean coercion rules (everything is true except <code>false</code> and <code>nil</code>)</li>
+        <li>Exception handling</li>
+        <li>Operator overloading</li>
+        <li>Built-in support for rational numbers, complex numbers and arbitrary-precision arithmetic</li>
+        <li>Custom dispatch behavior (through <code>method_missing</code> and <code>const_missing)</code></li>
+        </p>   
+    </section>
+
+
+    <section id="Syntax" class="main-section">
+        <header id="Syntax">
+        <h1>Syntax</h1>
+        </header>     
+        <p>
+            The syntax of Ruby is broadly similar to that of Perl and Python. Class and method definitions are signaled by keywords, whereas code blocks can be defined by either keywords or braces. In contrast to Perl, variables are not obligatorily prefixed with a sigil. When used, the sigil changes the semantics of scope of the variable. For practical purposes there is no distinction between expressions and statements.[94][95] Line breaks are significant and taken as the end of a statement; a semicolon may be equivalently used. Unlike Python, indentation is not significant.
+        </p>
+        <p>
+            One of the differences from Python and Perl is that Ruby keeps all of its instance variables completely private to the class and only exposes them through accessor methods (attr_writer, attr_reader, etc.). Unlike the "getter" and "setter" methods of other languages like C++ or Java, accessor methods in Ruby can be created with a single line of code via metaprogramming; however, accessor methods can also be created in the traditional fashion of C++ and Java. As invocation of these methods does not require the use of parentheses, it is trivial to change an instance variable into a full function, without modifying a single line of calling code or having to do any refactoring achieving similar functionality to C# and VB.NET property members.
+         </p>
+        <p>
+            Python's property descriptors are similar, but come with a trade-off in the development process. If one begins in Python by using a publicly exposed instance variable, and later changes the implementation to use a private instance variable exposed through a property descriptor, code internal to the class may need to be adjusted to use the private variable rather than the public property. Ruby's design forces all instance variables to be private, but also provides a simple way to declare set and get methods. This is in keeping with the idea that in Ruby, one never directly accesses the internal members of a class from outside the class; rather, one passes a message to the class and receives a response.
+        </p>
+    </section>
+
+
+    <section id="Repositories_and_libraries" class="main-section">
+        <header id="">
+        <h1>Repositories and libraries</h1>
+        </header>     
+        <p> 
+            RubyGems is Ruby's package manager. A Ruby package is called a "gem" and can be installed via the command line. Most gems are libraries, though a few exist that are applications, such as IDEs. There are over 100,000 Ruby gems hosted on RubyGems.org.
+        </p>
+        <p>
+            Many new and existing Ruby libraries are hosted on GitHub, a service that offers version control repository hosting for Git.
+        </p>
+        <p>
+            The Ruby Application Archive, which hosted applications, documentation, and libraries for Ruby programming, was maintained until 2013, when its function was transferred to RubyGems.
+        </p>   
+    </section>
+
+</main>
+</html>
+
+</body>
+
+
+
+
+<!-- STYLE SECTION-->
+<style>
+code {
+    background-color: rgb(174, 211, 211);
+}
+
+    h1 {
+    font-size: 22px;
+}
+    h2 {
+        font-size: 22px;
+        border-bottom: 2px solid black;
+    }
+
+body {
+    display: grid;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+nav {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    width: 20vw;
+    justify-content: center;
+    position: fixed;
+    text-align: center;
+    height: 60vh;
+    font-size: 20px;
+    border-bottom: 2px solid grey;
+}
+
+a {
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+    border-top: 2px solid grey;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 5vh;
+    margin-left: 20vw;
+    border-left: 3px solid black;
+}
+
+@media screen and (max-width: 992px) {
+nav {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    width: 100vw;
+    height: 25vh;
+    position: sticky;
+}
+main {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    width: 90vw;
+    margin-left: 0;
+    border-left: none;
+    border-bottom: 3px solid black;
+}
+} 
+
+
+
+</style>

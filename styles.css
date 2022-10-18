@@ -204,8 +204,8 @@ a {
 	.project-img {
 		display: flex;
 		height: auto;
-		width: 26vw;
-		margin-bottom: 2vw;
+		width: 16vw;
+		margin-bottom: 1vw;
 		align-items: center;
 		justify-content: center;
 	}
@@ -218,13 +218,62 @@ a {
 		text-align: center;
 		color: rgb(215, 215, 179);
 		text-decoration: none;
-		font-size: 16px;
+		font-size: 11px;
 		background-color: rgb(7, 39, 39);
-		width: 30vw;
-		height: 20vw;
+		width: 20vw;
+		height: auto;
 		padding: 2vh;
+		padding-bottom: 1vh;
 		border-radius: 1vh;
 	}
+
+	#grid-item0 {
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	#grid-item1 {
+		grid-column: 1;
+		grid-row: 3;
+	}
+
+	#grid-item2 {
+		grid-column: 2;
+		grid-row: 3;
+	}
+
+	#grid-item3 {
+		grid-column: 1;
+		grid-row: 4;
+	}
+
+	#grid-item4 {
+		grid-column: 2;
+		grid-row: 4;
+	}
+
+	#project-react {
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row: 2;
+	padding: 3vw;
+	border-radius: 1vw;
+	background: rgba(157, 157, 157, 0.1);
+	row-gap: 1vh;
+	column-gap: 3vw;
+}
+
+	#project-htmlcss {
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row: 3;
+	padding: 3vw;
+	border-radius: 1vw;
+	background: rgba(157, 157, 157, 0.1);
+	row-gap: 1vh;
+	column-gap: 3vw;
 }
 
 @media screen and (max-width: 600px) {
@@ -232,9 +281,9 @@ a {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 20px;
+		font-size: 18px;
 		background-color: rgb(79, 24, 40);
-		height: 8vh;
+		height: 6vh;
 		position: fixed;
 		width: 100vw;
 	}
@@ -249,7 +298,7 @@ a {
 	.project-img {
 		display: flex;
 		height: auto;
-		width: 30vw;
+		width: 24vw;
 		margin-bottom: 1vw;
 		align-items: center;
 		justify-content: center;
@@ -263,11 +312,11 @@ a {
 		text-align: center;
 		color: rgb(215, 215, 179);
 		text-decoration: none;
-		font-size: 14px;
+		font-size: 12px;
 		background-color: rgb(7, 39, 39);
-		width: 30vw;
-		height: 25vw;
-		padding: 4vh;
+		width: 26vw;
+		height: 17vw;
+		padding: 2vh;
 		border-radius: 1vh;
 	}
 	#welcome-section {

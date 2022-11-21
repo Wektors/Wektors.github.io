@@ -142,7 +142,7 @@ h3 {
 	background-color: rgb(12, 65, 65);
 	width: 10vw;
 	height: 7vw;
-	padding: 4vh;
+	padding: 2vw;
 	border-radius: 1vh;
 	margin: 2vh;
 	box-shadow: 5px 5px 5px rgba(6, 33, 33, 0.585);
@@ -172,7 +172,7 @@ a {
 	flex-direction: row;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
 	h2 {
 		margin-top: 3vh;
 		font-size: 30px;
@@ -183,9 +183,23 @@ a {
 		font-size: 22px;
 	}
 
+	#projects {
+	}
+
+	.project-stack {
+	}
+
 	.project-tile {
-		font-size: 13px;
-		width: 7vw;
-		height: 4vw;
+		font-size: 11px;
+		width: 4vw;
+		height: 2vw;
+		padding: 5vw;
+	}
+
+	.project-img {
+		width: 9vw;
+		margin-bottom: 0.5vw;
+		align-items: center;
+		justify-content: center;
 	}
 }

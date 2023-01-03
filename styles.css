@@ -198,7 +198,7 @@ a {
 
 
 @media screen and (max-width: 650px) {
-	
+
 	.nav-link {
 		font-size: 14px;
 	}
@@ -237,7 +237,7 @@ a {
 		width: 15vw;
 		height: 13vw;
 		padding: 2vw;
-		font-size: 10px;
+		font-size: 9px;
 	}
 
 	.project-img {

@@ -131,7 +131,7 @@ h2 {
 
 h3 {
 	display: flex;
-	margin-top: 2vh;
+	margin-top: 4vh;
 	font-size: 22px;
 }
 
@@ -198,6 +198,7 @@ a {
 
 
 @media screen and (max-width: 650px) {
+	
 	.nav-link {
 		font-size: 14px;
 	}
